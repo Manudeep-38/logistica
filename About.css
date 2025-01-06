@@ -1,0 +1,172 @@
+
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+}
+
+
+
+.header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #f04e31;
+
+  color: white;
+
+  padding: 10px 20px;
+
+}
+
+.logo {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(13, 13, 13);
+}
+
+
+a:hover {
+  text-decoration: none; 
+  color: #007bff; 
+}
+
+/* Specific styling for navigation links */
+.nav-links li a {
+  text-decoration: none; /* Remove underline for nav links */
+  color: rgb(249, 248, 248); /* Ensure consistent text color */
+}
+
+/* Optional: Style active link */
+.nav-links li a.active {
+  font-weight: bold; /* Highlight the active link */
+  color: #f5c242; /* Change color for active link */
+}
+
+
+/* About Section */
+
+.about-us {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 40px;
+
+}
+
+.about-content {
+
+  max-width: 50%;
+  color: rgb(9, 9, 9);
+}
+
+.about-content h2 {
+
+  color: #d5f875;
+
+}
+
+.features {
+
+  display: flex;
+
+  gap: 20px;
+
+  margin-top: 20px;
+
+}
+
+.feature {
+
+  text-align: center;
+
+}
+
+.feature span {
+
+  font-size: 30px;
+
+  display: block;
+
+  margin-bottom: 10px;
+
+}
+
+.image img {
+
+  max-width: 100%;
+
+  height: auto;
+
+  border-radius: 8px;
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  background: #333;
+
+  color: rgb(254, 249, 249);
+
+  padding: 10px 0;
+
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  width: 45%;
+  text-align: center;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image {
+  width: 100%; /* Adjust as needed */
+  max-width: 500px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
